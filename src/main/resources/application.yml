@@ -1,0 +1,13 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+
+server:
+  port: 8443
+  http2:
+    enabled: true
+  ssl:
+    key-store: classpath:sample.jks
+    key-store-password: secret
+    key-password: password
